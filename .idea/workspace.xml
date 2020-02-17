@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb68d1cd-4e12-496e-a61d-6796dc490324" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="eb68d1cd-4e12-496e-a61d-6796dc490324" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.1.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/WordGram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WordGram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2-markovPart1-sp20.iml" beforeDir="false" afterPath="$PROJECT_DIR$/p2-markovPart1-sp20.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WordGram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordGram.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,30 +38,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WwuVuS8bxdNADNFLEygSNCNyOY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.WordGramBenchmark">
+  <component name="RunManager" selected="JUnit.WordGramTest">
     <configuration name="SimpleWordGramDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SimpleWordGramDriver" />
       <module name="p2-markovPart1-sp20" />
@@ -70,60 +83,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="p2-markovPart1-sp20" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="p2-markovPart1-sp20" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordGramBenchmark" />
-        <item itemvalue="Application.SimpleWordGramDriver" />
         <item itemvalue="JUnit.WordGramTest" />
+        <item itemvalue="Application.SimpleWordGramDriver" />
+        <item itemvalue="Application.WordGramBenchmark" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -138,11 +116,6 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="WordGramTest - 2019.09.23 at 15h 36m 39s.xml">
-      <configuration name="WordGramTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -155,5 +128,50 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1003" y="325" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581534054297">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="1003" y="325" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.864@0.0.1536.864" timestamp="1581534054297" />
+    <state x="374" y="28" key="CommitChangelistDialog2" timestamp="1581922923067">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="374" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1581922923067" />
+    <state x="932" y="188" key="FileChooserDialogImpl" timestamp="1581701434051">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="932" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1581701434051" />
+    <state width="723" height="172" key="GridCell.Tab.0.bottom" timestamp="1581922727503">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="172" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1581922727503" />
+    <state width="723" height="172" key="GridCell.Tab.0.center" timestamp="1581922727503">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="172" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1581922727503" />
+    <state width="723" height="172" key="GridCell.Tab.0.left" timestamp="1581922727503">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="172" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1581922727503" />
+    <state width="723" height="172" key="GridCell.Tab.0.right" timestamp="1581922727503">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="172" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1581922727503" />
+    <state x="496" y="171" key="com.intellij.ide.util.TipDialog" timestamp="1581701422929">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="496" y="171" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1581701422929" />
+    <state x="882" y="330" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581534157413">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="882" y="330" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.864@0.0.1536.864" timestamp="1581534157413" />
+    <state x="963" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581890031248">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="963" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1581890031248" />
   </component>
 </project>

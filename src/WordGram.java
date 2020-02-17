@@ -1,9 +1,10 @@
+import java.util.List;
 
 /**
  * A WordGram represents a sequence of strings
  * just as a String represents a sequence of characters
  * 
- * @author YOUR NAME HERE
+ * @seb129 Sydney Ballard
  *
  */
 public class WordGram {
@@ -20,11 +21,14 @@ public class WordGram {
 	 * @param size the number of strings copied
 	 */
 	public WordGram(String[] source, int start, int size) {
+
 		myWords = new String[size];
+		for (int i=0 ; i < size ; i++) {
+			myWords[i] = source[start+i];
+		}
+
 		myToString = null;
 		myHash = 0;
-
-		// TODO: initialize myWords
 	}
 
 	/**
@@ -40,52 +44,69 @@ public class WordGram {
 	}
 
 	/**
-	 * Complete this comment
-	 * @return
+	 * Returns number of words in myWords String[]
+	 * @return num word in myWords
 	 */
 	public int length(){
-		// TODO: change this
-		return 0;
+		return myWords.length;
 	}
 
 
 	/**
-	 * Complete appropriate comment here
+	 * Overrides .equals() method to compare word gram objects
 	 * @param o
-	 * @return
+	 * @return Boolean -- T if o is instance of WordGram / F if not or null value
 	 */
 	@Override
 	public boolean equals(Object o) {
 		if (! (o instanceof WordGram) || o == null){
 			return false;
 		}
-		// TODO: Complete this method
-
+		WordGram oWord = (WordGram) o;
+		// Check lengths
+		if (oWord.length() != this.length()) {
+			return false;
+		}
+		// Check letter equivalency
+		for (int i=0 ; i < oWord.length(); i++) {
+			if (!oWord.myWords[i].equals(this.myWords[i])) {
+				return false;
+			}
+		}
 		return true;
 	}
 
 	@Override
 	public int hashCode(){
-		// TODO: complete this method
+		// Create hash code
+		myHash = this.toString().hashCode();
 		return myHash;
 	}
 	
 
 	/**
-	 * Create and complete this comment
+	 * Shifts word gram object and places new word in last index
 	 * @param last is last String of returned WordGram
-	 * @return
+	 * @return new word gram objects, shifted
 	 */
 	public WordGram shiftAdd(String last) {
-		WordGram wg = new WordGram(myWords,0,myWords.length);
-		// TODO: Complete this method
 
+		WordGram wg = new WordGram(myWords,0,myWords.length);
+
+		for (int i=1 ; i<myWords.length ; i++) {
+			wg.myWords[i-1] = wg.myWords[i];
+		}
+		// Make final idx equal to String, last
+		wg.myWords[wg.myWords.length - 1] = last;
 		return wg;
+
 	}
 
 	@Override
 	public String toString(){
-		// TODO: Complete this method
+		// Create String from  myWords array with space between each word
+		myToString = String.join(" ", myWords);
+
 		return myToString;
 	}
 }
